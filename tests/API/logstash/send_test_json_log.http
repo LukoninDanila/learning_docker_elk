@@ -1,0 +1,15 @@
+POST {{local_service}}/acquire-ticket HTTP/1.1
+Content-Type: application/json
+
+{
+  "app":"MySpringApplication",
+  "ts":"2018-12-17T17:51:10.701+00:00",
+  "logger":"com.myapp.MySpringApplication.myspringapplication.MySpringApplication",
+  "level":"INFO",
+  "class":"org.springframework.boot.StartupInfoLogger",
+  "method":"logStarting",
+  "file":"StartupInfoLogger.java",
+  "line":50,
+  "thread":"main",
+  "msg":"Starting MySpringApplication v0.0.1-SNAPSHOT on C02R16SXG8WN.corp.proofpoint.com with PID 16838 (/Users/pcunningham/sandbox/my-spring-application/target/my-spring-application-0.0.1-SNAPSHOT.jar started by pcunningham in /Users/pcunningham/sandbox/my-spring-application)"
+}
